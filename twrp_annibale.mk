@@ -4,23 +4,23 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/xiaomi/peridot
+DEVICE_PATH := device/xiaomi/annibale
 
 # Inherit from device.mk configuration
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
 
 # Release name
-PRODUCT_RELEASE_NAME := peridot
+PRODUCT_RELEASE_NAME := annibale
 
 ## Device identifier
-PRODUCT_DEVICE := peridot
-PRODUCT_NAME := twrp_peridot
+PRODUCT_DEVICE := annibale
+PRODUCT_NAME := twrp_annibale
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := RedmiTurbo3
 PRODUCT_MANUFACTURER := Xiaomi
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := peridot
+TARGET_OTA_ASSERT_DEVICE := annibale
 
 # Theme
 TW_STATUS_ICONS_ALIGN := center
