@@ -17,7 +17,7 @@
 cc_library {
     name: "bootctrl.xiaomi_sm8750",
     defaults: ["bootctrl_hal_defaults"],
-    static_libs: ["libgptutils.xiaomi_smsm8750"],
+    static_libs: ["libgptutils.xiaomi_sm8750"],
 }
 
 cc_library_shared {
