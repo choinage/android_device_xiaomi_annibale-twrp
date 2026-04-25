@@ -20,7 +20,7 @@
 PRODUCT_MAKEFILES := $(LOCAL_DIR)/twrp_annibale.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_annibale-user \
-    twrp_annibale-userdebug \
-    twrp_annibale-eng
+    twrp_annibale-trunk_staging-user \
+    twrp_annibale-trunk_staging-userdebug \
+    twrp_annibale-trunk_staging-eng
 #
